@@ -8,6 +8,11 @@ public class Ticket {
 		this.ticketName = ticketName;
 	}
 	
+	public Ticket() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public boolean addTicket() {
 		return true;
 	}
