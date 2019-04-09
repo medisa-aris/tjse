@@ -1,6 +1,13 @@
-package com.fusi24;
+package com.fusi24.ex1;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Booking {
+	Logger log = LoggerFactory.getLogger(Booking.class);
+	
+	
+	
 	private String bookingReference;
 	private boolean edit;
 	public boolean addBooking() {
@@ -12,6 +19,10 @@ public class Booking {
 		if(edit == true) {
 			return false;
 		}
+		
+		
+		log.info("Edit Booking");
+		
 		return edit;
 	}
 	

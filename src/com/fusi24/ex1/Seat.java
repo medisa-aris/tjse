@@ -2,6 +2,8 @@ package com.fusi24.ex1;
 
 public class Seat {
 	private String seatName;
+	private Show show;
+	
 	
 	public boolean addSeat() {
 		return true;
